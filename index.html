@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <link rel="stylesheet" href="styles/styles-dist.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Резюме</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- NAVIGATION -->
+      <div class="nav-wrapper">
+        <nav class="nav">
+          <div class="logo">
+            <h1>Воробьев Владимир Анатольевич</h1>
+            <h2>Водитель</h2>
+          </div>
+          <ul class="link-box" id="linkBox">
+            <li class="close-menu" id="closeMenu">
+              <img class="close" src="img/close.svg" alt="Close Menu" />
+            </li>
+            <li><a class="nav-link" href="#about-myself">О себе</a></li>
+            <li><a class="nav-link" href="#experience">Опыт работы</a></li>
+            <li><a class="nav-link" href="#education">Образование</a></li>
+            <li><a class="nav-link" href="#contact">Контакты</a></li>
+          </ul>
+          <div class="open-menu-button" id="openMenu">
+            <img class="hamburger" src="img/hamburger-48.svg" alt="Open Menu" />
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- ABOUT ME -->
+      <div class="about-me-wrapper" id="about-myself">
+        <div class="about-me">
+          <div class="about-me-picture">
+            <img
+              class="picture"
+              src="img/owner1200x800.jpg"
+              alt="Фото Водителя"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-me-text">
+            <h3>О себе</h3>
+            <p>
+              Опыт работы на автомобилях различного класса составляет более
+              16-ти лет. Стаж безаварийного вождения составляет более 6 лет.
+            </p>
+            <p>Водительское удостоверение включает категории: B, С, D, E.</p>
+            <p>
+              Опыт управления автомобилями иностранного производства (DAF, MAN,
+              Volvo, Scania).
+            </p>
+            <p>
+              Умение оптимизировать маршруты, выполнение плана доставок груза -
+              98%, аккуратное вождение в стесненных условиях.
+            </p>
+            <div class="about-me-buttons">
+              <a href="#personal"><button class="button">Подробнее</button></a>
+              <a href="#contact"><button class="button">Связаться</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- EXPERIENCE -->
+      <div class="experience-wrapper" id="experience">
+        <div class="experience">
+          <!-- HEAD OF THE SECTION -->
+          <div class="column-1">
+            <h3>Опыт работы</h3>
+          </div>
+          <div class="column-2">
+            <h3>Работадатель</h3>
+          </div>
+          <!-- EMPLOYER 1 -->
+          <div class="duration">
+            <h4>Март 2018 - по настоящее время</h4>
+          </div>
+          <div class="employer">
+            <h4>ГК "Деловые Линии"</h4>
+            <p>
+              Перевозка грузов по территории России, диагностика и контроль
+              исправности автомобиля, контроль погрузки, упаковки и крепления
+              груза, ведение сопровождающей документации
+            </p>
+          </div>
+          <!-- EMPLOYER 2 -->
+          <div class="duration">
+            <h4>Октябрь 2012 - Февраль 2018</h4>
+          </div>
+          <div class="employer">
+            <h4>ООО "СТК"</h4>
+            <p>
+              Перевозка сборных грузов по территории Самарской области,
+              диагностика и контроль исправности автомобиля, контроль погрузки,
+              упаковки и крепления груза, ведение сопровождающей документации,
+              выполнение личных поручений руководства
+            </p>
+          </div>
+          <!-- EMPLOYER 1 -->
+          <div class="duration">
+            <h4>Август 2008 - Январь 2018</h4>
+          </div>
+          <div class="employer">
+            <h4>ООО "Груз Авто"</h4>
+            <p>
+              Перевозка грузов по территории Самарской области, диагностика и
+              контроль исправности автомобиля, контроль погрузки, упаковки и
+              крепления груза, ведение сопровождающей документации,
+              экспедирование
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATION -->
+      <div class="education-wrapper" id="education">
+        <div class="education">
+          <!-- HEAD OF THE SECTION -->
+          <div class="column-1">
+            <h3>Образование</h3>
+          </div>
+          <div class="column-2">
+            <h3>Учебное заведение</h3>
+          </div>
+          <!-- EDUCATIONAL ORGANISATION 1 -->
+          <div class="duration">
+            <h4>Год окончания: 2016</h4>
+          </div>
+          <div class="organisation">
+            <h4>Онлайн школа English With Experts</h4>
+            <p>Курс: Разговорный английский язык.</p>
+          </div>
+          <!-- EDUCATIONAL ORGANISATION 2 -->
+          <div class="duration">
+            <h4>Год окончания: 2008</h4>
+          </div>
+          <div class="organisation">
+            <h4>Автошкола ДОСААФ России г. Самара</h4>
+            <p>Курс: Контраварийное вождение.</p>
+          </div>
+          <!-- EDUCATIONAL ORGANISATION 3 -->
+          <div class="duration">
+            <h4>Год окончания: 1998</h4>
+          </div>
+          <div class="organisation">
+            <h4>Профессионально-техническое училище №36 г. Тольятти</h4>
+            <p>
+              Квалификация: Cлесарь по ремонту автомобилей, водитель автомобиля.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ADDITIONAL INFO -->
+      <div class="additional-info-wrapper" id="personal">
+        <div class="additional-info">
+          <!-- HEAD OF THE SECTION -->
+          <div class="column-1">
+            <h3>Дополнительная информация</h3>
+          </div>
+          <div class="column-2">
+            <h3>Увлечения</h3>
+          </div>
+          <div class="free-time">
+            <h4>Личные качества</h4>
+            <p>Ответственность, пунктуальность, отсутствие вредных привычек.</p>
+          </div>
+          <div class="free-time-details">
+            <h4>Хобби</h4>
+            <p>Рыбалка, реставрация мебели.</p>
+          </div>
+          <div class="free-time">
+            <h4>Знание языков</h4>
+            <p>Русский, английский (разговорный).</p>
+          </div>
+          <div class="free-time-details">
+            <h4>Спорт</h4>
+            <p>Катание на беговых лыжах.</p>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT -->
+      <div class="contact-wrapper" id="contact">
+        <div class="contact">
+          <!-- HEAD OF THE SECTION -->
+          <div class="column-1">
+            <h3>Контакты</h3>
+          </div>
+          <div class="column-2">
+            <h3>Оперативные способы связи</h3>
+          </div>
+          <div class="contact-form">
+            <h4>Отправить сообщение</h4>
+            <form class="form" id="form">
+              <input
+                name="userName"
+                id="uname"
+                type="text"
+                placeholder="Ваше имя"
+                required
+              />
+              <input
+                name="userEmail"
+                id="uemail"
+                type="email"
+                placeholder="Ваш email"
+                required
+              />
+              <input
+                name="userPhone"
+                id="uphone"
+                type="tel"
+                placeholder="Ваш номер телефона"
+                required
+              />
+              <input
+                name="messageSubject"
+                id="msubject"
+                type="text"
+                placeholder="Тема сообщения"
+                required
+              />
+              <textarea
+                name="userMessage"
+                id="umessage"
+                rows="10"
+                placeholder="Введите текст вашего сообщения..."
+                required
+              ></textarea>
+              <input type="submit" value="Отправить письмо" />
+            </form>
+          </div>
+          <div class="contact-details">
+            <h4>Связаться по телефону</h4>
+            <div class="direct-connection">
+              <p>Телефон: <a href="tel:+1234567890">+7 (902) 000 0000.</a></p>
+              <!-- SOCIAL MEDIA ICONS -->
+              <h4>Написать в приложении</h4>
+              <div class="socials-icons-set">
+                <div class="viber">
+                  <!-- Replace '+' with '%2B' -->
+                  <a href="viber://chat?number=%2B79020000000">
+                    <img
+                      class="socials-icon"
+                      src="img/viber-color-icon.svg"
+                      alt="Viber"
+                      title="Viber"
+                    />
+                  </a>
+                </div>
+                <div class="vk">
+                  <a href="https://vk.com/">
+                    <img src="img/vk-icon.svg" alt="VK" title="VK" />
+                  </a>
+                </div>
+                <!-- It could be 'https://t.me/username' or https://t.me/+<number> -->
+                <div class="telegram">
+                  <a href="https://t.me/+79020000000">
+                    <img
+                      class="socials-icon"
+                      src="img/telegram-icon.svg"
+                      alt="Telegram"
+                      title="Telegram"
+                    />
+                  </a>
+                </div>
+                <div class="whatsapp">
+                  <a href="https://wa.me/79020000000">
+                    <img
+                      class="socials-icon"
+                      src="img/whatsapp-color-icon.svg"
+                      alt="WhatsApp"
+                      title="WhatsApp"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2024, Воробьев В.А.</p>
+    </footer>
+    <div class="go-to-top-button" id="goTop" onclick="goTopFunction()">
+      <img
+        class="go-to-top-icon"
+        src="img/arrow-up.svg"
+        alt="Go to top"
+        title="Go to top"
+      />
+    </div>
+    <!-- MODAL WINDOW FOR A CONTACT FORM -->
+    <!-- FADE -->
+    <div class="fade-area" id="fadeArea">
+      <!-- SUBMITTING PROCESS ICON -->
+      <div class="submitting-process" id="submittingProcess">
+        <img
+          class="submitting-process-icon"
+          src="img/progress-activity.svg"
+          alt="Submitting"
+          title="Отправка"
+        />
+      </div>
+      <!-- CONFIRMATION MODAL -->
+      <div class="modal-window" id="modalWindow">
+        <div class="modal-heading">
+          <h3>Ваше письмо отправлено!</h3>
+          <p>
+            Ответ будет направлен в течение 3 рабочих дней на указанный вами
+            адрес электронной почты.
+          </p>
+        </div>
+        <div class="modal-button">
+          <button class="modal-close-button" id="closeModal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+  </body>
+</html>
