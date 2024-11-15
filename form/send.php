@@ -12,8 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo 'Please fill out all fields. Пожалуйста';
     } else {
         // If everything looks good, send the email
-        $to = 'isotlt@inbox.ru';
-        $subject = 'A new message from "www.resume.sserbulatov.space"';
+        $to = 'example@gmail.com';
+        $subject = 'A new message from "www.example.space"';
         $body = "From: $userName\nEmail: $userEmail\nPhone: $userPhone\nMessage subject: $messageSubject\nUser Message: $userMessage";
 
         // Attempt to send the email and check if successful
